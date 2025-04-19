@@ -1,21 +1,22 @@
 //   //           ASSIGMENT # 2
 //                //  part 1
+// void main() {
+//   print('hello i am a converter \n i convert fahrenheit to celsius');
+//   print('fahrenheit value is 98');
+//   double cel = (98 - 32) * 5 / 9;
+//   print(' celsius value is $cel');
+// }
+//                                   //  part 2
 void main() {
-  print('hello i am a converter \n i convert fahrenheit to celsius');
-  print('fahrenheit value is 98');
-  double cel = (98 - 32) * 5 / 9;
-  print(' celsius value is $cel');
+  print('i am find area of rectangle');
+  print('breadth value is 5 cm ');
+  print(' length value is 7 cm ');
+  print(' now we find area of rectangle'); // rectangular
+  int bredth = 5;
+  int lenght = 7;
+  int area = lenght * bredth;
+  print(' area of rectangle value is $area cm');
 }
-                                     // part 2
-  // print ('i am find area of rectangle');
-  // print ('breadth value is 5 cm ');
-  // print ( ' length value is 7 cm ');
-  // print (' now we find area of rectangle' );
-  // int bredth = 5;
-  // int lenght = 7;
-  // int area = lenght * bredth;
-  // print (' area of rectangle value is $area cm');
-
 //                                  //part 3
 
 //   int num1 = 7;
@@ -47,7 +48,7 @@ void main() {
 //   print ('you achieve three subject percentage is $per%');
 // }
 
-// MARKSSHEET
+//                               // MARKSSHEET
 //   void main() {
 //   int englishmarks = 40;
 //   int mathsmarks = 30;
