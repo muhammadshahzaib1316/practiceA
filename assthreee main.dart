@@ -1,4 +1,4 @@
-//                     ASSIGMENT # 3
+//                     ASSIGMENT # 3  // dart new.
 
 // //                      part 1
 
@@ -45,7 +45,7 @@
 
 // void main() {
 //   print(' HELLO \n i will tell this is leap year \ non leap year ');
-//   int year = 2024;
+//   int year = 2022;
 //   if (year % 4 == 0) {
 //     print('$year is a leap year');
 //   } else {
@@ -234,26 +234,3 @@
 //     print('invalid email');
 //   }
 // // }
-
-// list
-void main() {
-  print("========list========");
-  List stdName = ['ali', 'zara', "anzish", "fatima"];
-  List stdnamE = ["ali", 12, 1.3]; // already dynamic
-  List<dynamic> stdname = ["ali", 12, 1.3];
-  print(stdName[2]);
-  print(stdName.length);
-  stdName.add("hamza");
-  print(stdName);
-  print(stdName.length);
-  stdName.addAll(["louvaiza", 'balaj', 'abass']);
-  print(stdName);
-  print(stdName.length);
-}
-
-// import 'dart:io';
-
-// void main() {
-//   String? name = stdin.readLineSync();
-//   print(name);
-// }
