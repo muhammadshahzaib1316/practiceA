@@ -7,16 +7,20 @@
 // }
 
 // //                          //part 2
-// void main() {
-//   Map studentObj = {
-//     "rollNo ": "as1243",
-//     "name": "shahzaib",
-//     "fname": "mujeeb",
-//     "grade ": "12",
-//     "percentage": "78%",
-//   };
-//   print(studentObj);
-// }
+
+void main() {
+  List<String> days = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ];
+
+  print(days.firstWhere((day) => day == "Sunday"));
+}
 
 //                          //part 3
 
@@ -100,16 +104,21 @@
 
 // //                          //part 10
 
-void main() {
-  Map<String, dynamic> user = {
-    "name": "John Doe",
-    "isAdmin": true,
-    "isActive": false,
-  };
+// void main() {
+//   Map<String, dynamic> user = {
+//     "name": "John Doe",
+//     "isAdmin": true,
+//     "isActive": false,
+//   };
 
-  if (user["isAdmin"] == true && user["isActive"] == true) {
-    print("Active admin");
-  } else {
-    print("Not an active admin");
-  }
-}
+//   if (user["isAdmin"] == true && user["isActive"] == true) {
+//     print("Active admin");
+//   } else {
+//     print("Not an active admin");
+//   }
+// }
+
+
+//  git add .
+// git commit -m "  "
+// git push origin master
