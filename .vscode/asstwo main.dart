@@ -12,8 +12,8 @@ void main() {
   print('breadth value is 5 cm ');
   print(' length value is 7 cm ');
   print(' now we find area of rectangle'); // rectangular
-  int bredth = 5;
-  int lenght = 7;
+  int bredth = 775;
+  int lenght = 77;
   int area = lenght * bredth;
   print(' area of rectangle value is $area cm');
 }

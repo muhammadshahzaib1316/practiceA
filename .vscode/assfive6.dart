@@ -33,27 +33,27 @@
 //
 //  question #2
 
-// import 'dart:math';
+import 'dart:math';
 
-// void main() {
-//   int length = 8; // desired password length
-//   String password = '';
-//   Random as = Random();
-//   // var intValue = Random().nextInt(10); // Value is >= 0 and < 10.
-//   // intValue = Random().nextInt(100) + 50; // Value is >= 50 and < 150.
+void main() {
+  int length = 8; // desired password length
+  String password = '';
+  Random as = Random();
+  // var intValue = Random().nextInt(10); // Value is >= 0 and < 10.
+  // intValue = Random().nextInt(100) + 50; // Value is >= 50 and < 150.
 
-//   String charter =
-//       'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#%^&*(_+<>)';
+  String charter =
+      'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#%^&*(_+<>)';
 
-//   int i = 0;
-//   while (i != length) {
-//     password += charter[as.nextInt(charter.length)];
-//     i++;
-//   }
+  int i = 0;
+  while (i != length) {
+    password += charter[as.nextInt(charter.length)];
+    i++;
+  }
 
-//   print('Generated Password: $password');
-//   // print(intValue);
-// }
+  print('Generated Password: $password');
+  // print(intValue);
+}
 
 //
 //
@@ -287,13 +287,13 @@
 // //               / question #15
 //
 //
-void main() {
-  int number = 5;
-  print('Multiplication table of $number:');
-  for (int i = 1; i <= 10; i++) {
-    print('$number x $i = ${number * i}');
-  }
-}
+// void main() {
+//   int number = 5;
+//   print('Multiplication table of $number:');
+//   for (int i = 1; i <= 10; i++) {
+//     print('$number x $i = ${number * i}');
+//   }
+// }
 
 
 //  git add .

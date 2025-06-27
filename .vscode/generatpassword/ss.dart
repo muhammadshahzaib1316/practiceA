@@ -1,0 +1,3 @@
+voidmain() {
+  print("dd");
+}

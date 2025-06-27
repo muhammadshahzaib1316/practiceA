@@ -2,24 +2,41 @@
 //
 //               cd functions    kisi folder main jana ka liya
 // //
-// void main() {
-//   print("i learn funtion");
-//   hondacar() {
-//     print("model : 2016");
-//     print("colour : black");
-//     print("price : 15 lac");
-//     print("========================");
-//     print("colour : white");
-//     print("price : 14.5 lac");
-//     print("========================");
-//     print("colour : blue");
-//     print("price : 14 lac");
-//   }
+void main() {
+  print("i learn funtion");
+  corolla(number, color, price) {
+    print("model : $number");
+    print("colour : $color");
+    print("price : $price");
+    /*
+    // print("========================");
+    // print("colour : white");                   fazul
+    // print("price : 14.5 lac");
+    // print("========================");
+    // print("colour : blue");
+    // print("price : 14 lac");
+    */
+  }
 
-// ignore_for_file: dead_code
+  civic(number, color, price) {
+    print("model : $number");
+    print("colour : $color");
+    print("price : $price");
+  }
 
-//   hondacar();
-// }
+  print("corolla 2011");
+  corolla("as231", "Black", "14 lac");
+  print("========================");
+
+  print("corolla 2012");
+  corolla("2fg245", "Black", "14.5 lac");
+  print("========================");
+  print("civic 2011");
+  civic("as234", "Black", "13.5 lac");
+  print("========================");
+  print("civic 2012");
+  civic("asd43", "Black", "14 lac");
+}
 //
 //
 //
